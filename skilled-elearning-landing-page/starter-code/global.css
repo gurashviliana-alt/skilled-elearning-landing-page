@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --violet:#666CA3; 
+    --darkBlu:#13183F;  
+    --grey:#83869A;
+    --flamingo:#F74780;
+    --pink:#FFA7C3;
+    --white:#FFFFFF;
+    --pinkGradient:linear-gradient(to bottom,#FF6F48,#F02AA6);
+    --purpleGradient:linear-gradient(to bottom,#4851FF,#F02AA6);
+
+
+    --jakarta:"Plus Jakarta Sans", sans-serif;
+    --fontSizeM:18px;
+    
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;   
+    font-family: var(--jakarta);
+}
+
+.HeadingXL{
+font-size: 56px;
+font-weight: 800;
+line-height: 70px;
+color: var(--darkBlu);
+}
+
+.HeadingL{
+font-size: 40px;
+font-weight: 800;
+line-height: 51px;
+color: var(--darkBlu);
+}
+.HeadingM{
+font-size:32px ;
+font-weight: 800;
+line-height: 40px;
+color: var(--white);
+}
+
+.HeadingS{
+font-size:24px ;
+font-weight: 800;
+line-height:28px;
+color: var(--darkBlu);
+}
+
+.BodyM{
+font-size:18px ;
+font-weight: 400;
+line-height:28px;
+color: var(--grey);
+}
+.BodyS{
+font-size:16px ;
+font-weight: 700;
+line-height:28px;
+color: var(--grey);
+}
+
+.btnBlue{
+ background-color: var(--darkBlu);  
+ padding: 14px 32px; 
+ border-radius:28px ;
+ color: var(--white);
+ border: none;
+ font-size: var(--fontSizeM);
+ font-weight: 700;
+ line-height: 28px;
+
+ &:hover{
+ background-color: var(--violet);
+ }
+}
+
+.btnpink{
+background: var(--pinkGradient);  
+padding: 18px 32px; 
+border-radius:31px ;
+color: var(--white);
+border: none;
+font-size: var(--fontSizeM);
+font-weight: 700;
+line-height: 28px;
+
+&:hover{
+opacity: 0.5;    
+}
+}
+
+.btnPurple{
+    background: var(--purpleGradient);  
+    padding: 14px 32px; 
+    border-radius:28px ;
+    color: var(--white);
+    border: none;
+    font-size: var(--fontSizeM);
+    font-weight: 700;
+    line-height: 18px;
+    
+    &:hover{
+    opacity:0.5 ;
+    }
+    }
