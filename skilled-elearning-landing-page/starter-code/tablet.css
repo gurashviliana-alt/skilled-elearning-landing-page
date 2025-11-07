@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  header {
+    position: relative;
+    z-index: 2;
+    padding: 24px 40px 0 40px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  main {
+    padding-top: 99px;
+    padding: 99px 40px 86px 40px;
+  }
+  .top_section {
+    display: flex;
+    margin-bottom: 186px;
+  }
+  .top_section {
+    display: flex;
+  }
+  .mobile_img {
+    display: none;
+  }
+  .tablet_img {
+    position: absolute !important;
+    z-index: 1;
+    right: -280px;
+    top: -60px;
+    display: block;
+  }
+  .left {
+    max-width: 398px;
+  }
+  .bot_section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 56px;
+    column-gap: 11px;
+  }
+  .cards {
+    max-width: 339px;
+    height: 259px;
+    padding: 56px 22px 32px 32px;
+  }
+  .gradient {
+    padding-top: 56px;
+  }
+  footer {
+    padding: 36px 40px;
+  }
+  footer > img {
+    width: 89px;
+  }
+  .desktop_img {
+    display: none;
+  }
+}

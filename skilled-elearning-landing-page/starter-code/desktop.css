@@ -1,0 +1,50 @@
+@media (min-width: 1400px) {
+  body {
+    
+  }
+  header{
+    padding: 39px 165px 0 165px;
+  }
+  main{
+    padding: 185px 165px 140px 165px;
+  }
+  .desktop_img {
+    display: block !important;
+    position: absolute;
+    right:-350px;
+    top: -150px;
+  }
+  .tablet_img{
+    display: none;
+  }
+  .left{
+max-width:457px;
+gap: 0;
+  }
+
+  .left>p{
+margin-top: 30px;
+margin-bottom: 40px;
+font-size: 56px;
+font-weight: 800;
+line-height: normal;
+  }
+  .left>p{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+  }
+  .cards{
+    max-width: 350px;
+    height: 322px;
+  }
+  .bot_section{
+   row-gap: 80px ; 
+   column-gap:30px;
+  }
+  .footer{
+    padding: 32px 165px;
+  }
+
+}
